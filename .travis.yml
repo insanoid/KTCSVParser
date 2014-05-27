@@ -1,3 +1,6 @@
+before_install:
+  - brew update
+  - brew upgrade xctool
 language: objective-c
 script:
   - xctool -project KTCSVParser.xcodeproj -scheme KTCSVParser -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
