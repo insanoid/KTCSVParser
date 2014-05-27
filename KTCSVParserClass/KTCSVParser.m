@@ -70,7 +70,7 @@ static NSString *kErrorDomain = @"com.parser.KTCSVParser";
     if (_currentOperationMode == KTCSVParserModeRead) {
         if (asyncMode == YES) {
             dispatch_queue_t currentQueue =
-            dispatch_queue_create("com.trainline.csvparser.queue", NULL);
+            dispatch_queue_create("com.kt.csvparser.queue", NULL);
             dispatch_async(currentQueue, ^{ [self processContent]; });
         } else {
             [self processContent];
@@ -250,7 +250,7 @@ static NSString *kErrorDomain = @"com.parser.KTCSVParser";
             }
             if (asyncMode) {
                 dispatch_queue_t currentQueue =
-                dispatch_queue_create("com.trainline.csvparser.queue", NULL);
+                dispatch_queue_create("com.kt.csvparser.queue", NULL);
                 dispatch_async(currentQueue, ^{ [self writeRows:content]; });
             } else {
                 [self writeRows:content];
