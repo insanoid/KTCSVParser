@@ -4,6 +4,9 @@ before_install:
   - brew update
   - brew upgrade xctool
 
+before_script:
+  - open -a iPhone\ Simulator
+
 script:
   - xctool -project KTCSVParser.xcodeproj -scheme KTCSVParser -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
   - xctool test -project KTCSVParser.xcodeproj -scheme KTCSVParserTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO build-tests
