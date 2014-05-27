@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		935427D11934331A003C68BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935427D01934331A003C68BA /* Foundation.framework */; };
+		935427D31934331A003C68BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935427D21934331A003C68BA /* CoreGraphics.framework */; };
+		935427D51934331A003C68BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935427D41934331A003C68BA /* UIKit.framework */; };
+		935427DB1934331A003C68BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 935427D91934331A003C68BA /* InfoPlist.strings */; };
+		935427DD1934331A003C68BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935427DC1934331A003C68BA /* main.m */; };
+		935427E11934331A003C68BA /* KTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 935427E01934331A003C68BA /* KTAppDelegate.m */; };
+		935427E41934331A003C68BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935427E21934331A003C68BA /* Main.storyboard */; };
+		935427E71934331A003C68BA /* KTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935427E61934331A003C68BA /* KTViewController.m */; };
+		935427E91934331A003C68BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935427E81934331A003C68BA /* Images.xcassets */; };
+		935427F01934331A003C68BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935427EF1934331A003C68BA /* XCTest.framework */; };
+		935427F11934331A003C68BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935427D01934331A003C68BA /* Foundation.framework */; };
+		935427F21934331A003C68BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935427D41934331A003C68BA /* UIKit.framework */; };
+		935427FA1934331A003C68BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 935427F81934331A003C68BA /* InfoPlist.strings */; };
+		935427FC1934331A003C68BA /* KTCSVParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935427FB1934331A003C68BA /* KTCSVParserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		935427F31934331A003C68BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 935427C51934331A003C68BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 935427CC1934331A003C68BA;
+			remoteInfo = KTCSVParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		935427CD1934331A003C68BA /* KTCSVParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTCSVParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		935427D01934331A003C68BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		935427D21934331A003C68BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		935427D41934331A003C68BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		935427D81934331A003C68BA /* KTCSVParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KTCSVParser-Info.plist"; sourceTree = "<group>"; };
+		935427DA1934331A003C68BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		935427DC1934331A003C68BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		935427DE1934331A003C68BA /* KTCSVParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KTCSVParser-Prefix.pch"; sourceTree = "<group>"; };
+		935427DF1934331A003C68BA /* KTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTAppDelegate.h; sourceTree = "<group>"; };
+		935427E01934331A003C68BA /* KTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTAppDelegate.m; sourceTree = "<group>"; };
+		935427E31934331A003C68BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		935427E51934331A003C68BA /* KTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTViewController.h; sourceTree = "<group>"; };
+		935427E61934331A003C68BA /* KTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTViewController.m; sourceTree = "<group>"; };
+		935427E81934331A003C68BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		935427EE1934331A003C68BA /* KTCSVParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTCSVParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		935427EF1934331A003C68BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		935427F71934331A003C68BA /* KTCSVParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KTCSVParserTests-Info.plist"; sourceTree = "<group>"; };
+		935427F91934331A003C68BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		935427FB1934331A003C68BA /* KTCSVParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTCSVParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		935427CA1934331A003C68BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935427D31934331A003C68BA /* CoreGraphics.framework in Frameworks */,
+				935427D51934331A003C68BA /* UIKit.framework in Frameworks */,
+				935427D11934331A003C68BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935427EB1934331A003C68BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935427F01934331A003C68BA /* XCTest.framework in Frameworks */,
+				935427F21934331A003C68BA /* UIKit.framework in Frameworks */,
+				935427F11934331A003C68BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		935427C41934331A003C68BA = {
+			isa = PBXGroup;
+			children = (
+				935427D61934331A003C68BA /* KTCSVParser */,
+				935427F51934331A003C68BA /* KTCSVParserTests */,
+				935427CF1934331A003C68BA /* Frameworks */,
+				935427CE1934331A003C68BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		935427CE1934331A003C68BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				935427CD1934331A003C68BA /* KTCSVParser.app */,
+				935427EE1934331A003C68BA /* KTCSVParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		935427CF1934331A003C68BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				935427D01934331A003C68BA /* Foundation.framework */,
+				935427D21934331A003C68BA /* CoreGraphics.framework */,
+				935427D41934331A003C68BA /* UIKit.framework */,
+				935427EF1934331A003C68BA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		935427D61934331A003C68BA /* KTCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				935427DF1934331A003C68BA /* KTAppDelegate.h */,
+				935427E01934331A003C68BA /* KTAppDelegate.m */,
+				935427E21934331A003C68BA /* Main.storyboard */,
+				935427E51934331A003C68BA /* KTViewController.h */,
+				935427E61934331A003C68BA /* KTViewController.m */,
+				935427E81934331A003C68BA /* Images.xcassets */,
+				935427D71934331A003C68BA /* Supporting Files */,
+			);
+			path = KTCSVParser;
+			sourceTree = "<group>";
+		};
+		935427D71934331A003C68BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				935427D81934331A003C68BA /* KTCSVParser-Info.plist */,
+				935427D91934331A003C68BA /* InfoPlist.strings */,
+				935427DC1934331A003C68BA /* main.m */,
+				935427DE1934331A003C68BA /* KTCSVParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		935427F51934331A003C68BA /* KTCSVParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				935427FB1934331A003C68BA /* KTCSVParserTests.m */,
+				935427F61934331A003C68BA /* Supporting Files */,
+			);
+			path = KTCSVParserTests;
+			sourceTree = "<group>";
+		};
+		935427F61934331A003C68BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				935427F71934331A003C68BA /* KTCSVParserTests-Info.plist */,
+				935427F81934331A003C68BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		935427CC1934331A003C68BA /* KTCSVParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935427FF1934331A003C68BA /* Build configuration list for PBXNativeTarget "KTCSVParser" */;
+			buildPhases = (
+				935427C91934331A003C68BA /* Sources */,
+				935427CA1934331A003C68BA /* Frameworks */,
+				935427CB1934331A003C68BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTCSVParser;
+			productName = KTCSVParser;
+			productReference = 935427CD1934331A003C68BA /* KTCSVParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		935427ED1934331A003C68BA /* KTCSVParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935428021934331A003C68BA /* Build configuration list for PBXNativeTarget "KTCSVParserTests" */;
+			buildPhases = (
+				935427EA1934331A003C68BA /* Sources */,
+				935427EB1934331A003C68BA /* Frameworks */,
+				935427EC1934331A003C68BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				935427F41934331A003C68BA /* PBXTargetDependency */,
+			);
+			name = KTCSVParserTests;
+			productName = KTCSVParserTests;
+			productReference = 935427EE1934331A003C68BA /* KTCSVParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		935427C51934331A003C68BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KT;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					935427ED1934331A003C68BA = {
+						TestTargetID = 935427CC1934331A003C68BA;
+					};
+				};
+			};
+			buildConfigurationList = 935427C81934331A003C68BA /* Build configuration list for PBXProject "KTCSVParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 935427C41934331A003C68BA;
+			productRefGroup = 935427CE1934331A003C68BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				935427CC1934331A003C68BA /* KTCSVParser */,
+				935427ED1934331A003C68BA /* KTCSVParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		935427CB1934331A003C68BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935427E91934331A003C68BA /* Images.xcassets in Resources */,
+				935427DB1934331A003C68BA /* InfoPlist.strings in Resources */,
+				935427E41934331A003C68BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935427EC1934331A003C68BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935427FA1934331A003C68BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		935427C91934331A003C68BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935427E71934331A003C68BA /* KTViewController.m in Sources */,
+				935427DD1934331A003C68BA /* main.m in Sources */,
+				935427E11934331A003C68BA /* KTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935427EA1934331A003C68BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935427FC1934331A003C68BA /* KTCSVParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		935427F41934331A003C68BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 935427CC1934331A003C68BA /* KTCSVParser */;
+			targetProxy = 935427F31934331A003C68BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		935427D91934331A003C68BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				935427DA1934331A003C68BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		935427E21934331A003C68BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				935427E31934331A003C68BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		935427F81934331A003C68BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				935427F91934331A003C68BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		935427FD1934331A003C68BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		935427FE1934331A003C68BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		935428001934331A003C68BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KTCSVParser/KTCSVParser-Prefix.pch";
+				INFOPLIST_FILE = "KTCSVParser/KTCSVParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		935428011934331A003C68BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KTCSVParser/KTCSVParser-Prefix.pch";
+				INFOPLIST_FILE = "KTCSVParser/KTCSVParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		935428031934331A003C68BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KTCSVParser.app/KTCSVParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KTCSVParser/KTCSVParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KTCSVParserTests/KTCSVParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		935428041934331A003C68BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KTCSVParser.app/KTCSVParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KTCSVParser/KTCSVParser-Prefix.pch";
+				INFOPLIST_FILE = "KTCSVParserTests/KTCSVParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		935427C81934331A003C68BA /* Build configuration list for PBXProject "KTCSVParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935427FD1934331A003C68BA /* Debug */,
+				935427FE1934331A003C68BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935427FF1934331A003C68BA /* Build configuration list for PBXNativeTarget "KTCSVParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935428001934331A003C68BA /* Debug */,
+				935428011934331A003C68BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		935428021934331A003C68BA /* Build configuration list for PBXNativeTarget "KTCSVParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935428031934331A003C68BA /* Debug */,
+				935428041934331A003C68BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 935427C51934331A003C68BA /* Project object */;
+}
