@@ -21,6 +21,16 @@
 		935427F21934331A003C68BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935427D41934331A003C68BA /* UIKit.framework */; };
 		935427FA1934331A003C68BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 935427F81934331A003C68BA /* InfoPlist.strings */; };
 		935427FC1934331A003C68BA /* KTCSVParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935427FB1934331A003C68BA /* KTCSVParserTests.m */; };
+		9354280619343385003C68BA /* KTCSVParserClass in Resources */ = {isa = PBXBuildFile; fileRef = 9354280519343385003C68BA /* KTCSVParserClass */; };
+		9354280719343385003C68BA /* KTCSVParserClass in Resources */ = {isa = PBXBuildFile; fileRef = 9354280519343385003C68BA /* KTCSVParserClass */; };
+		9354280A1934339C003C68BA /* KTCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 935428091934339C003C68BA /* KTCSVParser.m */; };
+		9354280B1934339C003C68BA /* KTCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 935428091934339C003C68BA /* KTCSVParser.m */; };
+		9354280D1934370A003C68BA /* sample_file_tab_spaced.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9354280C1934370A003C68BA /* sample_file_tab_spaced.csv */; };
+		9354280E1934370A003C68BA /* sample_file_tab_spaced.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9354280C1934370A003C68BA /* sample_file_tab_spaced.csv */; };
+		9354281019343715003C68BA /* sample_file_comma_spaced.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9354280F19343715003C68BA /* sample_file_comma_spaced.csv */; };
+		9354281119343715003C68BA /* sample_file_comma_spaced.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9354280F19343715003C68BA /* sample_file_comma_spaced.csv */; };
+		9354281319343749003C68BA /* Travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9354281219343749003C68BA /* Travis.yml */; };
+		9354281419343749003C68BA /* Travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9354281219343749003C68BA /* Travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,12 @@
 		935427F71934331A003C68BA /* KTCSVParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KTCSVParserTests-Info.plist"; sourceTree = "<group>"; };
 		935427F91934331A003C68BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		935427FB1934331A003C68BA /* KTCSVParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTCSVParserTests.m; sourceTree = "<group>"; };
+		9354280519343385003C68BA /* KTCSVParserClass */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KTCSVParserClass; sourceTree = "<group>"; };
+		935428081934339C003C68BA /* KTCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTCSVParser.h; path = KTCSVParserClass/KTCSVParser.h; sourceTree = "<group>"; };
+		935428091934339C003C68BA /* KTCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTCSVParser.m; path = KTCSVParserClass/KTCSVParser.m; sourceTree = "<group>"; };
+		9354280C1934370A003C68BA /* sample_file_tab_spaced.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file_tab_spaced.csv; sourceTree = "<group>"; };
+		9354280F19343715003C68BA /* sample_file_comma_spaced.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file_comma_spaced.csv; sourceTree = "<group>"; };
+		9354281219343749003C68BA /* Travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,10 @@
 		935427C41934331A003C68BA = {
 			isa = PBXGroup;
 			children = (
+				9354281219343749003C68BA /* Travis.yml */,
+				935428081934339C003C68BA /* KTCSVParser.h */,
+				935428091934339C003C68BA /* KTCSVParser.m */,
+				9354280519343385003C68BA /* KTCSVParserClass */,
 				935427D61934331A003C68BA /* KTCSVParser */,
 				935427F51934331A003C68BA /* KTCSVParserTests */,
 				935427CF1934331A003C68BA /* Frameworks */,
@@ -126,6 +146,8 @@
 		935427D71934331A003C68BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9354280F19343715003C68BA /* sample_file_comma_spaced.csv */,
+				9354280C1934370A003C68BA /* sample_file_tab_spaced.csv */,
 				935427D81934331A003C68BA /* KTCSVParser-Info.plist */,
 				935427D91934331A003C68BA /* InfoPlist.strings */,
 				935427DC1934331A003C68BA /* main.m */,
@@ -228,8 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9354281019343715003C68BA /* sample_file_comma_spaced.csv in Resources */,
 				935427E91934331A003C68BA /* Images.xcassets in Resources */,
+				9354280D1934370A003C68BA /* sample_file_tab_spaced.csv in Resources */,
+				9354281319343749003C68BA /* Travis.yml in Resources */,
 				935427DB1934331A003C68BA /* InfoPlist.strings in Resources */,
+				9354280619343385003C68BA /* KTCSVParserClass in Resources */,
 				935427E41934331A003C68BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9354281419343749003C68BA /* Travis.yml in Resources */,
+				9354280E1934370A003C68BA /* sample_file_tab_spaced.csv in Resources */,
+				9354280719343385003C68BA /* KTCSVParserClass in Resources */,
+				9354281119343715003C68BA /* sample_file_comma_spaced.csv in Resources */,
 				935427FA1934331A003C68BA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9354280A1934339C003C68BA /* KTCSVParser.m in Sources */,
 				935427E71934331A003C68BA /* KTViewController.m in Sources */,
 				935427DD1934331A003C68BA /* main.m in Sources */,
 				935427E11934331A003C68BA /* KTAppDelegate.m in Sources */,
@@ -259,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9354280B1934339C003C68BA /* KTCSVParser.m in Sources */,
 				935427FC1934331A003C68BA /* KTCSVParserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

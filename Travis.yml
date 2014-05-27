@@ -1,0 +1,4 @@
+language: objective-c
+script:
+  - xctool -workspace KTCSVParser.xcworkspace -scheme KTCSVParser -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace KTCSVParser.xcworkspace -scheme KTCSVParserTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
